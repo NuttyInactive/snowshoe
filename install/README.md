@@ -5,6 +5,32 @@ meant as a quick reference for me in the event that I ever decide to perform a
 clean installation of my box, but it may also be used to help others install
 or configure their own boxes.
 
+## Table of Contents
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Install Arch Linux on VirtualBox](#install-arch-linux-on-virtualbox)
+  - [Partition the Virtual Disk](#partition-the-virtual-disk)
+  - [Mount the File Systems](#mount-the-file-systems)
+  - [Select the `pacman` Mirrors](#select-the-pacman-mirrors)
+  - [Install Base Packages](#install-base-packages)
+  - [Generate the `fstab` File](#generate-the-fstab-file)
+  - [Change Root](#change-root)
+  - [Install VirtualBox Guest Additions](#install-virtualbox-guest-additions)
+  - [Create the `swapfile`](#create-the-swapfile)
+  - [Create the `initramfs`](#create-the-initramfs)
+  - [Create a New User](#create-a-new-user)
+  - [Configure the Time Zone](#configure-the-time-zone)
+  - [Configure the Locale](#configure-the-locale)
+  - [Configure the Network](#configure-the-network)
+  - [Configure the Hostname](#configure-the-hostname)
+  - [Configure the Bootloader](#configure-the-bootloader)
+  - [Reboot the Virtual Machine](#reboot-the-virtual-machine)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Install Arch Linux on VirtualBox
 
 This part assumes that you have already installed [VirtualBox][] on your host
